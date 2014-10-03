@@ -4,7 +4,7 @@ Solutions to Project Euler problems using the [J programming language](http://ww
 
 ##Synopsis
 
-The scripts in this project solve the corresponding problems provided at [projecteuler.net](projecteuler.net) while using the fewest number of characters as possible. The only time that the efficiency of a script takes priority over its length is when the more terse solution takes an inexcusably longer amount of time to finish running (e.g. 5 minutes vs 5 seconds)
+The scripts in this project solve the corresponding problems provided at [projecteuler.net](https://projecteuler.net) while using the fewest number of characters as possible. The only time that the efficiency of a script takes priority over its length is when the more terse solution takes an inexcusably longer amount of time to finish running (e.g. 5 minutes vs 5 seconds)
 
 ##Examples
 
