@@ -8,4 +8,4 @@ NB.         {:             Last item of list
 NB.         *@:            Multiplied by
 NB.         4              4
 NB.     ,&         Append result
-NB. +/             Sum items of list
+NB. +/             Sum of list items

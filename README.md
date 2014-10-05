@@ -37,10 +37,10 @@ A typical script will look something like this:
     NB. -            subtracted from
     NB. 0            zero
 
-Each tree follows its script from top to bottom. Subprocesses are indicated by increased indentation.
+A tree follows its script from top to bottom. Subprocesses are indicated by increased indentation.
 
 ##Running Scripts
 
-From within the J console, type `load 'path/to/problem[NUMBER].ijx'` and press ENTER to execute the script.
+From within the J console, type `load 'path/to/problem[NUMBER].ijx'` and press <kbd>Enter</kbd> to load the script.
 
-Each script ends by executing the `echo` command, so the act of loading a script will also print its output to the screen.
+When a solution script is loaded it automatically executes and uses `echo` to print its output to the screen.
