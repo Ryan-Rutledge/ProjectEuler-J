@@ -26,16 +26,16 @@ A typical script will look something like this:
     echo 0-((1-2)-3-4)-5
     
     NB. 5            5
-    NB. -            subtracted from
+    NB. -            Subtracted from
     NB.     4            4
-    NB.     -            subtracted from
+    NB.     -            Subtracted from
     NB.     3            3
-    NB.     -            subtracted from
+    NB.     -            Subtracted from
     NB.         2            2
-    NB.         -            subtracted from
+    NB.         -            Subtracted from
     NB.         1            1
-    NB. -            subtracted from
-    NB. 0            zero
+    NB. -            Subtracted from
+    NB. 0            0
 
 A tree follows its script from top to bottom. Subprocesses are indicated by increased indentation.
 
@@ -43,4 +43,4 @@ A tree follows its script from top to bottom. Subprocesses are indicated by incr
 
 From within the J console, type `load 'path/to/problem[NUMBER].ijx'` and press <kbd>Enter</kbd> to load the script.
 
-When a solution script is loaded it automatically executes and uses `echo` to print its output to the screen.
+When a solution script is loaded it automatically executes and prints its output to the screen.
