@@ -4,13 +4,13 @@ Solutions to Project Euler problems using the [J programming language](http://ww
 
 ##Synopsis
 
-The scripts in this project solve the corresponding problems provided at [projecteuler.net](https://projecteuler.net) while using the fewest number of characters as possible. The only time that the efficiency of a script takes priority over its length is when the more terse solution takes an inexcusably longer amount of time to finish running (e.g. 5 minutes vs 5 seconds)
+The scripts in this project solve the corresponding problems provided at [projecteuler.net](https://projecteuler.net) while using the fewest number of characters as possible. The only time that the efficiency of a script takes priority over its length is when the more terse solution takes an inexcusably longer amount of time to finish running (e.g. 5 minutes vs 5 seconds).
 
 ##Examples
 
 ###Solution Priority
 
-It is possible to find the 100001 prime number with both the following scripts:
+It is possible to find the 100001<sup>st</sup> prime number with both the following scripts:
 
 1. `p:100001`
 2. `p:>:1e5`
@@ -37,10 +37,4 @@ A typical script will look something like this:
     NB. -            Subtracted from
     NB. 0            0
 
-A tree follows its script from top to bottom. Subprocesses are indicated by increased indentation.
-
-##Running Scripts
-
-From within the J console, type `load 'path/to/problem[NUMBER].ijx'` and press <kbd>Enter</kbd> to load the script.
-
-When a solution script is loaded it automatically executes and prints its output to the screen.
+A tree follows its script from top to bottom. Subprocesses are indicated by increased indentation, and must finish executing before the parent process can return a value.
