@@ -1,4 +1,4 @@
-echo (*:+/n)-+/*:n=.i.101
+(*:+/n)-+/*:n=.i.101
 
 NB. i.101      List of numbers 0 up to 101
 NB. n=.        Set var n equal to list
