@@ -12,4 +12,4 @@ NB.             -:                Is equal to hook arg
 NB.         (                 End hook
 NB.     #~                List hook arg items where right arg items equal 1
 NB. (                 End hook
-NB. >./               Greatest item
+NB. >./               Greatest number in list
