@@ -26,17 +26,16 @@ A typical script will look something like this:
 ```j
 0-((1-2)-3-4)-5
 
-NB. 5            5
-NB. -            Subtracted from
-NB.     4            4
-NB.     -            Subtracted from
-NB.     3            3
-NB.     -            Subtracted from
-NB.         2            2
-NB.         -            Subtracted from
-NB.         1            1
-NB. -            Subtracted from
-NB. 0            0
+NB. 5             5
+NB. )-            Subtracted from
+NB.     4             4
+NB.     3-            Subtracted from 3
+NB.     )-            Subtracted from
+NB.         2             2
+NB.         1-            Subtracted from 1
+NB.     (         
+NB. (             
+NB. 0-            Subtracted from 0
 ```
 
 A tree follows its script from top to bottom. Subprocesses are indicated by increased indentation, and must finish executing before the parent process can return a value.
